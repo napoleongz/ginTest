@@ -1,13 +1,12 @@
 package main
 
 import (
-	"ginTest/config"
 	"ginTest/cmd"
+	"ginTest/config"
 )
 
-func main() {
+func main1() {
 	config.InitContentConfig()
-
 
 	cmd.API()
 
